@@ -1,0 +1,26 @@
+header {
+    background-color: #f7B897;
+    padding: 20px;
+    text-align: start;
+}
+
+.container{position: relative;}
+.logo img{width: 200px; height: 150px;align-items: start; margin-right: 10px; margin-top:10px;}
+    .Navigation{display: flex; justify-content: center; align-items: flex-end; font-family:'Kavoon', serif; font-size: 20px; color: #333;}
+    nav a{margin-left: 150px; text-decoration: none; color: #262F5B;}
+    nav a:hover{color: #a906e9ab;}
+.footer {background-color: #f7B897; text-align:start;margin-top:0px; font-family:'Kavoon', serif; font-size: 12px; color: #262f5b; padding: 10px;}
+    p2{font-family:'Kavoon', serif; font-size: 12px; color: #262f5b; justify-content: center;} 
+.main {display: flex; justify-content: center; border:#333;
+ border-width: 4px; border-style: solid; margin:0px; font-family:'Kavoon', serif; font-size: 20px; color: #333;height:1080px;}
+    .maincontainer{display: flex; justify-content: center; border:#333; align-items: center; height: 1080px;}
+   .maincontainer p{font-family:'Kavoon', serif; font-size: 12px; color: #333; text-align: center;}
+    .maincontainer p2{font-family:'Kavoon', serif; font-size: 12px; color: #333; text-align: center;}
+    .maincontainer p3{font-family:'Kavoon', serif; font-size: 12px; color: #333; text-align: center;} 
+    .maincontainer p4{font-family:'Kavoon', serif; font-size: 12px; color: #333; text-align: center;}
+    .maincontainer p5{font-family:'Kavoon', serif; font-size: 12px; color: #333; text-align: center;}
+    .maincontainer p6{font-family:'Kavoon', serif; font-size: 12px; color: #333; text-align: center;}
+    .imagecontainer{display: flex; flex-direction: row;align-items:top; height: 300px; width: 10000%;border:#333; 
+        border-width: 4px; 
+        border-style: solid;}
+    .imagecontainer img{max-width: 100%; height: 20%;justify-content: bottom; align-items: start; margin-top: 10px; margin-bottom: 10px;}
