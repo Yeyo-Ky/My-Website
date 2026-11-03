@@ -35,3 +35,8 @@
   .active, .accordion:hover {
   background-color: #ccccccb2;}
     .maincontainer img{max-width: 100%; height: 10%;justify-content: bottom; align-items: start; margin-top: 10px; margin-bottom: 10px;}
+    .intro-gif {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto 30px;}
