@@ -12,12 +12,11 @@
     nav a:hover{color: #a906e9ab;}
 .footer {background-color: #f7B897; text-align:start;margin-top:0px; font-family:'Kavoon', serif; font-size: 12px; color: #262f5b; padding: 10px;}
     p2{font-family:'Kavoon', serif; font-size: 12px; color: #262f5b; justify-content: center;} 
-.main {display: flex; 
-    justify-content: center; 
-    padding: 30px 20px;
-    margin-top:0;
-    padding-top:0;
-    height:1080px; font-family: 'Kavoon',serif; font-size: 12px; color: 262f5b}
+.main {display: block; 
+    width:100%;
+    margin:0;
+    padding:0;
+   font-family: 'Kavoon',serif; font-size: 12px; color: 262f5b}
 .accordion {
   background-color: #eee;
   color: #444;
@@ -38,9 +37,7 @@
   .active, .accordion:hover {
   background-color: #ccccccb2;}
     .intro-gif {
-  display: block;
-  width: 100%;
-  max-width: 100vw;
-  margin: 0;max-width: none; height:auto; margin-left:calc(50% - 50vw)}
-  .maincontainer{margin-top:0;}
-  body{margin:0;}
+  display: block; width: 100%;
+  max-width:none;}
+  .maincontainer{width:100%;margin:0;}
+  body{margin:0; overflow-x:hidden;}
