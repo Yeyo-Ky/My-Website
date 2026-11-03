@@ -10,7 +10,7 @@
     .Navigation{display: flex; justify-content: center; align-items: flex-end; font-family:'Kavoon', serif; font-size: 20px; color: #333;}
     nav a{margin-left: 150px; text-decoration: none; color: #262F5B;}
     nav a:hover{color: #a906e9ab;}
-.footer {background-color: #f7B897; text-align:start;margin-top:0px; font-family:'Kavoon', serif; font-size: 12px; color: #262f5b; padding: 10px;}
+.footer {background-color: #f7B897;width:100%; box-sizing: border-box;margin:0;font-family:'Kavoon', serif; font-size: 12px; color: #262f5b; padding: 20px;}
     p2{font-family:'Kavoon', serif; font-size: 12px; color: #262f5b; justify-content: center;} 
 .main {display: block; 
     width:100%;
