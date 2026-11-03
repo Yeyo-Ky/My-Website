@@ -28,6 +28,7 @@
   background-color: white;
   overflow: hidden; 
   transition: max-height 0.2s ease-out;
+  max-height:0;
 }
   .active, .accordion:hover {
   background-color: #ccccccb2;}
