@@ -17,20 +17,26 @@
          <a href="Food%20and%20Drink.html">Food and Drink</a>
          <a href="ThingstoDo.html">Things to Do</a>
     </nav>
+</div>
 </header>
 <main id='main' class="main body">
-     <div class="maincontainer">
-        <p>Breakfast
-Enjoy some delicious quesitos, made from puff pastry and sweet cream cheese. Wash it all down with some cafe con leche.
-</p>
-        <p2>Lunch 
-            Enjoy a fried favorite like alcapurritas with assorted meats. Try mofongo, a mashed side dish made with plantains. Or take it up a notch with pastelon, a beef lasagna with plantains. </p2>
-        <p3>Dinner & Dessert
-            Looking to try an island classic? Chow down on some arroz con gandules. Then wash it down with a refreshing pina colada, from where it was first invented! Need to beat the heat, try the famous frozen coconut in a cup treat, limber de coco.
+    <section class="food-section">
+    <h1>Puerto Rican Food</h1>
 
-   
-     </div>
-     <div class="imagecontainer"></div>
+    <button class="food-bar" data-category="breakfast">Breakfast</button>
+    <button class="food-bar" data-category="lunch">Lunch</button>
+    <button class="food-bar" data-category="dinner">Dinner & Dessert</button>
+  </section>
+
+  <section class="video-section">
+    <h1>Puerto Rican Food and Culture</h1>
+
+    <iframe
+      src="https://www.youtube.com/embed/IgLdgP2NCNA?si=-Wm1TmlDIl82PRqj"
+      title="Puerto Rican food video"
+      allowfullscreen>
+    </iframe>
+    </section>
     
 </main>
 <footer id="footer" class="footer">
@@ -44,4 +50,12 @@ Enjoy some delicious quesitos, made from puff pastry and sweet cream cheese. Was
         </ul>
     </div>  
 </footer>
+<div class="lightbox" id="lightbox">
+  <div class="lightbox-content">
+    <button class="close-button">&times;</button>
+    <div id="lightbox-images"></div>
+    <p id="lightbox-text"></p>
+  </div>
+</div>
+<script src="FoodandDrink.js"></script>
 </body>
